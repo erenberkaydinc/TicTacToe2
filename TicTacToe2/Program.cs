@@ -26,18 +26,16 @@ namespace TicTacToe2
                             Console.Clear();
                             Console.WriteLine("Welcome to tic-tac-toe awesome gameeeee!");
                             Console.WriteLine("PLAYER 1 is X and PLAYER 2 is O \n");
-                            
-
-
+                        
                             
                             if (player % 2 == 0)
                             {
-                                Console.WriteLine("player 2 chance");
+                                Console.WriteLine("PLAYER 2's TURN");
 
                             }
                             else
                             {
-                                Console.WriteLine("player 1 chance ");
+                                Console.WriteLine("PLAYER 1's TURN");
                             }
                             Console.Write("\n");
 
@@ -63,8 +61,8 @@ namespace TicTacToe2
 
                             else
                             {
-                                Console.WriteLine("{0}.ROW already FILLED with {1} ", prefer, part[prefer]);
-                                Console.WriteLine("\n");
+                                Console.WriteLine("{0}.ROW already FILLED with {1} \n", prefer, part[prefer]);
+                                
                                 Console.WriteLine("PLEASE WAIT ");
 
 
@@ -199,7 +197,6 @@ namespace TicTacToe2
                 Console.WriteLine("1. Start a new game ");
                 Console.WriteLine("2. Author ");
                 Console.WriteLine("3. Exit ");
-
             }
         }
     }
