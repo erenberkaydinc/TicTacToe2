@@ -63,7 +63,7 @@ namespace TicTacToe2
 
                             else
                             {
-                                Console.WriteLine("sorry the row {0} is already marked with {1} ", prefer, part[prefer]);
+                                Console.WriteLine("{0}.ROW already FILLED with {1} ", prefer, part[prefer]);
                                 Console.WriteLine("\n");
                                 Console.WriteLine("PLEASE WAIT ");
 
@@ -199,11 +199,6 @@ namespace TicTacToe2
                 Console.WriteLine("1. Start a new game ");
                 Console.WriteLine("2. Author ");
                 Console.WriteLine("3. Exit ");
-
-
-
-
-
 
             }
         }
